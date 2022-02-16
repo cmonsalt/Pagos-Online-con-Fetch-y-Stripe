@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.camisetas {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.camisetas > * {
+  flex: 1 1 200px;
+  margin: 1rem;
+}
+
+.camiseta {
+  background-color: gray;
+  color: bisque;
+  font-size: 125%;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.camiseta:hover {
+  opacity: 0.9;
+  transform: scale(0.9);
+}
+
+.camiseta img {
+  max-width: 100%;
+  height: auto;
+}
+
+.camiseta figcaption {
+  padding: 1rem;
+}

@@ -6,18 +6,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pagos Online con Fetch y Stripe</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <h1>Pagos Online con Fetch y Stripe</h1>
-  <section id="camisetas" class="camisetas">
-    <template id="camiseta-id">
-      <figure class="camiseta">
-        <img>
-        <figcaption></figcaption>
-      </figure>
-    </template>
-  </section>
+  <section id="camisetas" class="camisetas"></section>
+  <template id="camiseta-id">
+    <figure class="camiseta">
+      <img>
+      <figcaption></figcaption>
+    </figure>
+  </template>
+
   <script src="https://js.stripe.com/v3/"></script>
   <script src="js/stripe-checkout.js" type="module"></script>
 </body>
